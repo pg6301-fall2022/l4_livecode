@@ -5,8 +5,8 @@
 * [x] Snapshot tests
   * Test rendering
 * [x] Simulator testing
-* [ ] Test submission
-* [ ] GitHub Actions 
+* [x] Test submission
+* [x] GitHub Actions 
 * [ ] Coverage coveralls.io
 * [ ] Prettier
 * [ ] Typescript
