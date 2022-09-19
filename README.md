@@ -1,10 +1,10 @@
 # Code quality
 
-* [ ] Create react app
-* [ ] Jest 
-* [ ] Snapshot tests
+* [x] Create react app
+* [x] Jest 
+* [x] Snapshot tests
   * Test rendering
-* [ ] Simulator testing
+* [x] Simulator testing
 * [ ] Test submission
 * [ ] GitHub Actions 
 * [ ] Coverage coveralls.io
