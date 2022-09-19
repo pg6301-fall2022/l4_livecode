@@ -1,3 +1,5 @@
+[![Run my tests](https://github.com/pg6301-fall2022/l4_livecode/actions/workflows/test.yml/badge.svg)](https://github.com/pg6301-fall2022/l4_livecode/actions/workflows/test.yml)
+
 # Code quality
 
 * [x] Create react app

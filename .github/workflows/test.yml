@@ -15,4 +15,8 @@ jobs:
       - uses: actions/setup-node@v3
 
       - run: npm ci
-      - run: npm test
+      - run: npm verify
+      - name: Coveralls
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
