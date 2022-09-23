@@ -1,5 +1,4 @@
 import * as React from "react";
-import * as ReactDOM from "react-dom";
 
 import {useState} from "react";
 
@@ -9,7 +8,15 @@ export function ListMovies(){
     </div>
 }
 
-export function NewMovieForm({onAddMovie}){
+interface Movie {
+    title: String;
+    year: String;
+    plot: String;
+}
+
+export function NewMovieForm(
+    {onAddMovie,} : {onAddMovie(mov: Movie): void }
+){
     const [title, setTitle] = useState("");
     const [year, setYear] = useState("");
     const [plot, setPlot] = useState("");
