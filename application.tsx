@@ -9,7 +9,15 @@ export function ListMovies(){
     </div>
 }
 
-export function NewMovieForm({onAddMovie}){
+interface Movie {
+    title: String,
+    year: String,
+    plot: String
+}
+
+export function NewMovieForm(
+    {onAddMovie} : {onAddMovie(Movie)}
+){
     const [title, setTitle] = useState("");
     const [year, setYear] = useState("");
     const [plot, setPlot] = useState("");

@@ -9,7 +9,7 @@
 * [x] Simulator testing
 * [x] Test submission
 * [x] GitHub Actions 
-* [ ] Coverage coveralls.io
+* [x] Coverage coveralls.io
 * [ ] Prettier
 * [ ] Typescript
 

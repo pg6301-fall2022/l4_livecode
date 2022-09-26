@@ -16,7 +16,8 @@ describe("movie app tests", () => {
 
     it("new movie form shows", () => {
         const element = document.createElement("div");
-        ReactDOM.render(<NewMovieForm/>, element);
+        const onAddMovieMocked = jest.fn(); // Mock function
+        ReactDOM.render(<NewMovieForm onAddMovie={onAddMovieMocked}/>, element);
 
         expect(element.innerHTML).toMatchSnapshot();
     });
