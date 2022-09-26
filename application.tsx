@@ -10,13 +10,13 @@ export function ListMovies(){
 }
 
 interface Movie {
-    title: String,
-    year: String,
-    plot: String
+    title: String;
+    year: String;
+    plot: String;
 }
 
 export function NewMovieForm(
-    {onAddMovie} : {onAddMovie(Movie)}
+    {onAddMovie,} : {onAddMovie(mov: Movie): void }
 ){
     const [title, setTitle] = useState("");
     const [year, setYear] = useState("");
